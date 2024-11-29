@@ -8,6 +8,7 @@
   html {
     scroll-behavior: smooth;
   }
+
   
   ::-webkit-scrollbar {
     width: 6px;
@@ -89,7 +90,7 @@
   .skills-list-title{
     font-size: 20px;
     font-weight: 600;
-    margin-bottom: 10px;
+    margin: 15px 0px 0px 10px;
   }
 
   section .title {
@@ -414,7 +415,7 @@
     text-align: justify;
   }
   
-  .skills .skills-content .left a {
+  .skills .skills-content .left .links {
     display: inline-block;
     background: #1e3551;
     color: #fff;
@@ -427,7 +428,7 @@
     transition: all 0.3s ease;
   }
   
-  .skills .skills-content .left a:hover {
+  .skills .skills-content .left .links:hover {
     color: #1e3551;
     background: none;
     animation: pulsate 1s ease-in-out;
@@ -469,6 +470,7 @@
   
   .skills .skills-content .right .line::before {
     content: "";
+   
     position: absolute;
     height: 100%;
     left: 0;
@@ -931,3 +933,7 @@
       gap: 20px;
     }
   }
+
+
+
+  
